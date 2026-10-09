@@ -1,0 +1,10 @@
+# Never upload local secrets; set GEMINI_API_KEY in the Vercel project instead.
+.env
+.env.*
+!.env.example
+# Raw Meshy exports; the app serves the copies in public/models.
+Meshy_AI_*.glb
+node_modules
+dist
+# Remotion demo video project (large captured footage).
+video
